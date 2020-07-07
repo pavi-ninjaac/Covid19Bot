@@ -53,7 +53,9 @@ answer our question about covid19 pandemic and treatment and medicine.<br/>
       documents and speed up the search task.<br/>      
       In “Manage field” you can restrict the fields that are not allow in your documents.<br/>
 ![Screenshot (147)](https://user-images.githubusercontent.com/51699297/86823003-f1fb3680-c0a9-11ea-8684-2db077c8ce2b.png)
-- 7) Make copy of the collection id, environment id and the configuration id and the API key, URL in the Watson home page for the future use.,br/>148
+- 7) Make copy of the collection id, environment id and the configuration id and the API key, URL in the Watson home page for the future use.<br/>
+
+![Screenshot (148)](https://user-images.githubusercontent.com/51699297/86824395-b8c3c600-c0ab-11ea-988e-1fb5f68d6bab.png)
 
 ![Screenshot (142)](https://user-images.githubusercontent.com/51699297/86822949-e0199380-c0a9-11ea-926b-5db43154ce5f.png)
 
