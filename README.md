@@ -59,4 +59,24 @@ answer our question about covid19 pandemic and treatment and medicine.<br/>
 
 ![Screenshot (142)](https://user-images.githubusercontent.com/51699297/86822949-e0199380-c0a9-11ea-926b-5db43154ce5f.png)
 
+# Make query using the Cloud function:
+	 We want to search into the document by the keyword, that is asked by the user to the chatbot. So to make connection between the Watson assistant and the Watson discovery we use the cloud function. Open your cloud function on the IBM dashboard,<br/>
+It is located on the left side navigator.
+-	1) click on start creation. 155
+-	2) click on “action” and name your action and leave other things as it is and click create.156
+-	3) there under code section copy the ____________ file from the repository and paste it here. 157
+-	4) Under the parameter section you have to specify the parameter you are going to use. 158 modify
+-	5) just click invoke to see the results.
+-	6) go to endpoint and check the “Enable as web action” and then copy the URL for the future use , through this we are going to connect the cloud function with assistant. 159
+
+# Make your assistant :
+	Just open your Watson assistant, and click on “launch Watson assistant”.<br/>
+-	1) click on create assistant, and name your assistant and click create.160
+-	2) Under skill click “add dialog skill”. 161
+-	3) under import skill import the __________  file. And click import.162
+-	4) Dialog section you can check the instants, entities and dialog . and “try it “ to make conversation with that.164
+-	5) Under “options  webhooks paste your url that you copied from the cloud function. 165.
+# Make UI flow using the node -red:
+-	1) Open your node-red and click import and import the ___________ file.
+-	2) go to your assistant and under skill select your skill and click on the 3 dots and click view API details. There copy the skill id and paste under the assistant node and click “deploy”. 166
 
