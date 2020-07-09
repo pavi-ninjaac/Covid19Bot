@@ -59,24 +59,52 @@ answer our question about covid19 pandemic and treatment and medicine.<br/>
 
 ![Screenshot (142)](https://user-images.githubusercontent.com/51699297/86822949-e0199380-c0a9-11ea-926b-5db43154ce5f.png)
 
+
 # Make query using the Cloud function:
 	 We want to search into the document by the keyword, that is asked by the user to the chatbot. So to make connection between the Watson assistant and the Watson discovery we use the cloud function. Open your cloud function on the IBM dashboard,<br/>
 It is located on the left side navigator.
--	1) click on start creation. 155
--	2) click on “action” and name your action and leave other things as it is and click create.156
--	3) there under code section copy the ____________ file from the repository and paste it here. 157
+-	1) click on start creation. 
+
+![Screenshot (155)](https://user-images.githubusercontent.com/51699297/87071318-affffb00-c237-11ea-8243-95739429dbb6.png)
+
+-	2) click on “action” and name your action and leave other things as it is and click create.
+
+![Screenshot (156)](https://user-images.githubusercontent.com/51699297/87071326-b2625500-c237-11ea-9cc0-2c5923ca0482.png)
+
+-	3) there under code section copy the ____________ file from the repository and paste it here.
+![Screenshot (157)](https://user-images.githubusercontent.com/51699297/87071330-b3938200-c237-11ea-8119-adeaf433f05a.png)
+
 -	4) Under the parameter section you have to specify the parameter you are going to use. 158 modify
 -	5) just click invoke to see the results.
--	6) go to endpoint and check the “Enable as web action” and then copy the URL for the future use , through this we are going to connect the cloud function with assistant. 159
+-	6) go to endpoint and check the “Enable as web action” and then copy the URL for the future use , through this we are going to connect the cloud function with assistant. 
+
+![Screenshot (159)](https://user-images.githubusercontent.com/51699297/87071354-bc845380-c237-11ea-85fd-cd482af8a7e9.png)
 
 # Make your assistant :
 	Just open your Watson assistant, and click on “launch Watson assistant”.<br/>
--	1) click on create assistant, and name your assistant and click create.160
--	2) Under skill click “add dialog skill”. 161
--	3) under import skill import the __________  file. And click import.162
--	4) Dialog section you can check the instants, entities and dialog . and “try it “ to make conversation with that.164
--	5) Under “options  webhooks paste your url that you copied from the cloud function. 165.
+-	1) click on create assistant, and name your assistant and click create.
+
+![Screenshot (160)](https://user-images.githubusercontent.com/51699297/87071385-c6a65200-c237-11ea-84ff-a2859d3c09fc.png)
+
+-	2) Under skill click “add dialog skill”. 
+
+![Screenshot (161)](https://user-images.githubusercontent.com/51699297/87071430-d756c800-c237-11ea-9698-b2f70fc545a8.png)
+
+-	3) under import skill import the __________  file. And click import.
+
+![Screenshot (162)](https://user-images.githubusercontent.com/51699297/87071488-ec335b80-c237-11ea-8993-2dd413246b5b.png)
+
+-	4) Dialog section you can check the instants, entities and dialog . and “try it “ to make conversation with that.
+
+![Screenshot (164)](https://user-images.githubusercontent.com/51699297/87071516-f7868700-c237-11ea-9c3f-ddaa7d7f9e91.png)
+
+-	5) Under “options  webhooks paste your url that you copied from the cloud function. 
+
+![Screenshot (165)](https://user-images.githubusercontent.com/51699297/87071549-00775880-c238-11ea-9d7d-b62b2988a72c.png)
+
 # Make UI flow using the node -red:
 -	1) Open your node-red and click import and import the ___________ file.
--	2) go to your assistant and under skill select your skill and click on the 3 dots and click view API details. There copy the skill id and paste under the assistant node and click “deploy”. 166
+-	2) go to your assistant and under skill select your skill and click on the 3 dots and click view API details. There copy the skill id and paste under the assistant node and click “deploy”. 
 
+
+![Screenshot (166)](https://user-images.githubusercontent.com/51699297/87071561-066d3980-c238-11ea-98e7-5e97338d402c.png)
