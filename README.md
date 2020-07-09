@@ -39,7 +39,7 @@ answer our question about covid19 pandemic and treatment and medicine.<br/>
 - 3)	Click on “select documents “ and upload the pdf document. Watson support several document type like excel, pdf, png, jpg, html.<br/>
   But they wont allow the CSV files you have to change your CSV to PDF if you want to upload the CSV file.<br/>
   That conversion I mentioned in the other repository that link is.<br./>
-  >  _________________link here_______________ <br/>
+  >  https://github.com/pavi-ninjaac/CSV_to_PDF
   
  ![Screenshot (145)](https://user-images.githubusercontent.com/51699297/86822981-eb6cbf00-c0a9-11ea-90f3-824d623b1e70.png)
  
@@ -74,7 +74,10 @@ It is located on the left side navigator.
 -	3) there under code section copy the "cloud_function_node.js" file from the repository and paste it here.
 ![Screenshot (157)](https://user-images.githubusercontent.com/51699297/87071330-b3938200-c237-11ea-8119-adeaf433f05a.png)
 
--	4) Under the parameter section you have to specify the parameter you are going to use. 158 modify
+-	4) Under the parameter section you have to specify the parameter you are going to use. 
+
+![Screenshot (158)](https://user-images.githubusercontent.com/51699297/87072874-200f8080-c23a-11ea-8683-0cf5ba72598a.png)
+
 -	5) just click invoke to see the results.
 -	6) go to endpoint and check the “Enable as web action” and then copy the URL for the future use , through this we are going to connect the cloud function with assistant. 
 
