@@ -71,7 +71,7 @@ It is located on the left side navigator.
 
 ![Screenshot (156)](https://user-images.githubusercontent.com/51699297/87071326-b2625500-c237-11ea-9cc0-2c5923ca0482.png)
 
--	3) there under code section copy the ____________ file from the repository and paste it here.
+-	3) there under code section copy the "cloud_function_node.js" file from the repository and paste it here.
 ![Screenshot (157)](https://user-images.githubusercontent.com/51699297/87071330-b3938200-c237-11ea-8119-adeaf433f05a.png)
 
 -	4) Under the parameter section you have to specify the parameter you are going to use. 158 modify
@@ -90,7 +90,7 @@ It is located on the left side navigator.
 
 ![Screenshot (161)](https://user-images.githubusercontent.com/51699297/87071430-d756c800-c237-11ea-9698-b2f70fc545a8.png)
 
--	3) under import skill import the __________  file. And click import.
+-	3) under import skill import the "skill_watson_code/skill-covid.json" file. And click import.
 
 ![Screenshot (162)](https://user-images.githubusercontent.com/51699297/87071488-ec335b80-c237-11ea-8993-2dd413246b5b.png)
 
@@ -103,7 +103,7 @@ It is located on the left side navigator.
 ![Screenshot (165)](https://user-images.githubusercontent.com/51699297/87071549-00775880-c238-11ea-9d7d-b62b2988a72c.png)
 
 # Make UI flow using the node -red:
--	1) Open your node-red and click import and import the ___________ file.
+-	1) Open your node-red and click import and import the "covidbot_flow/chatbotv1.json" file.
 -	2) go to your assistant and under skill select your skill and click on the 3 dots and click view API details. There copy the skill id and paste under the assistant node and click “deploy”. 
 
 
