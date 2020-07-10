@@ -50,15 +50,16 @@ function main(params) {
     discovery.query({
       'environment_id': params.environment_id,
       'collection_id': params.collection_id,
-      'natural_language_query': params.input,
-      'passages': true,
-      'count': 3,
-      'passages_count': 3
-    }, function(err, data) {
+      'natural_language_query': params.state,
+      'passages':true,
+      'count': 1,
+      'passages_count': 1
+    },
+    function(err, data) {
       if (err) {
         return reject(err);
       }
-      return resolve(data);
+      return resolve(data.passages[0]);
     });
   });
 }
